@@ -91,13 +91,12 @@
   }
   
   .edit-button {
-    background-color: #0f77f5;
+    background-color: #23a2f1;
     color: white;
     border: none
   }
-
   .delete-button {
-    background-color: #f50f0f;
+    background-color: #e70a20;
     color: white;
     border: none
   }

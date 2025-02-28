@@ -55,15 +55,15 @@
     cursor: pointer;
   }
   
-  /* Added News Styles */
-  .added-news {
+  /* User Messages Styles */
+  .user-messages {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
   }
   
-  .added-news h1 {
+  .user-messages h1 {
     text-align: center;
     color: #df750c;
     margin-bottom: 20px;
@@ -91,13 +91,36 @@
   }
   
   .edit-button {
-    background-color: #0f77f5;
+    background-color: #23a2f1;
     color: white;
-    border: none
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
   }
-
+  
   .delete-button {
-    background-color: #f50f0f;
+    background-color: #e70a20;
     color: white;
-    border: none
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-button .fa-edit, .delete-button .fa-trash {
+    margin-right: 8px;
+  }
+  
+  .edit-button:hover {
+    background-color: #1c8fd6;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9091b;
   }
