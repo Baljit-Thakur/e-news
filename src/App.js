@@ -1,7 +1,10 @@
 import React from 'react';
-//import Navbar from './components/Navbar';
+import AdminNavbar from './components/adminnavbar';
 import './App.css'; // Import global styles
-import AddNews from './components/AddNews';
+//import AddNews from './components/AddNews';
+//import ProfilePage from './components/profilepage';
+//import Dashboard from './components/dashboard';
+//import Navbar from './components/navbar';
 //import Dashboard from './components/dashboard'; // Import the Dashboard component
 //import ProfilePage from './components/profilepage'; // Import the ProfilePage component
 //import AddedNews from './components/AddedNews';
@@ -13,7 +16,7 @@ import AddNews from './components/AddNews';
 function App() {
   return (
     <div className="App">
-      <AddNews/>{/* Render the Dashboard component */}
+      <AdminNavbar/>{/* Render the Dashboard component */}
     </div>
   );
 }
