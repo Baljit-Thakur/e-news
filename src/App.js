@@ -4,7 +4,6 @@ import './App.css'; // Import global styles
 //import AddNews from './components/AddNews';
 //import ProfilePage from './components/profilepage';
 //import Dashboard from './components/dashboard';
-//import Navbar from './components/navbar';
 //import Dashboard from './components/dashboard'; // Import the Dashboard component
 //import ProfilePage from './components/profilepage'; // Import the ProfilePage component
 //import AddedNews from './components/AddedNews';

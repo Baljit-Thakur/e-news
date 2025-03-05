@@ -1,70 +1,70 @@
 /* Remove default margin and padding from body and html */
 html, body {
-  margin: 0;
-  padding: 0;
-}
-
-/* Navbar Container */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* Full width */
-  padding: 10px 20px; /* Padding for spacing inside navbar */
-  background-color: #333; /* Dark background */
-  color: white;
-  font-family: Arial, sans-serif;
-  box-sizing: border-box; /* Ensure padding is included in the width */
-  position: fixed; /* Fix navbar at the top */
-  top: 0; /* Stick to the top */
-  left: 0; /* Stick to the left */
-  z-index: 1000; /* Ensure navbar stays above other content */
-}
-
-/* Left Side: Logo */
-.navbar-left {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: white; /* Logo color */
-}
-
-/* Right Side: Nav Links and Icons */
-.navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Space between nav-links and icons */
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px; /* Space between links */
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.nav-links li a:hover {
-  color: #007bff; /* Hover effect */
-}
-
-/* Icons */
-.icon {
-  font-size: 20px;
-  cursor: pointer;
-  color: white;
-}
-
-.icon:hover {
-  color: #007bff; /* Hover effect */
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Full width */
+    padding: 10px 20px; /* Padding for spacing inside navbar */
+    background-color: #333; /* Dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    position: fixed; /* Fix navbar at the top */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    z-index: 1000; /* Ensure navbar stays above other content */
+  }
+  
+  /* Left Side: Logo */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Logo color */
+  }
+  
+  /* Right Side: Nav Links and Icons */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between nav-links and icons */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff; /* Hover effect */
+  }
+  
+  /* Icons */
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Hover effect */
+  }
